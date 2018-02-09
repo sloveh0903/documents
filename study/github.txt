@@ -1,0 +1,21 @@
+Github创建项目
+
+一、直接创建新的项目（本地无项目）
+1、在Github上创建新的仓库，然后克隆到本地
+
+
+
+二、本地已有项目上传到Github
+
+1、直接在Github上创建项目仓库，不要勾选初始化选项
+
+2、在本地创建项目仓库
+   1）、切换到本地项目路径下
+   2）、执行 git init 命令
+   3）、将项目下的所有文件提交到  git add  .  git commit -m ""
+
+3、建立本地仓库与Github仓库的关联
+   执行命令：git remote add origin Github地址
+
+4、推送本地项目到Github仓库
+   执行命令：git push -u origin master
